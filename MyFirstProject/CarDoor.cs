@@ -12,10 +12,6 @@ public class CarDoor : MonoBehaviour {
 		GameObject.FindWithTag("vipercam").GetComponent<AudioListener>().enabled = false;
 	}
 
-	void Update () {
-
-	
-	}
 	public void OnTriggerEnter(Collider hit){
 		if (hit.gameObject.tag == "Player"){
 			GameObject.Destroy(hit.gameObject);
