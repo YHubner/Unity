@@ -14,10 +14,7 @@ public class FinalCamera : MonoBehaviour {
 
 	}
 
-	void Update () {
-
 	
-	}
 	public void OnTriggerEnter(Collider hit){
 		if (hit.gameObject.tag == "playerbullet1"){
 
